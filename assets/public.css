@@ -1,0 +1,12 @@
+/* Additions for the public site, on top of styles.css. */
+.teaser { display: grid; gap: 10px; align-content: start; border-top: 3px solid var(--g-marksman); }
+.teaser h3 { font-size: 1.35rem; }
+.status { display: inline-block; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 3px 9px; border-radius: 999px; background: var(--even-soft); color: var(--muted); }
+.locked { border-left: 3px solid var(--g-marksman); padding: 12px 16px; background: var(--panel); border-radius: 0 8px 8px 0; }
+.feature h3 { margin-bottom: 6px; }
+.feature ul { margin: 8px 0 0; padding-left: 18px; }
+.feature li { margin: 4px 0; }
+.legal { max-width: 75ch; }
+.legal h2 { margin-top: 10px; }
+.legal p, .legal address { margin: 0 0 10px; font-style: normal; }
+footer a { color: inherit; text-decoration: underline; }
